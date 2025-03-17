@@ -80,7 +80,7 @@ public class MatrixMultiplication {
                     throw new Exception(message);
                 }*/
                  if (parts.length != cols) {
-                    String message = "Error! Column size is not the same in " + filename + "at line" + (rows+1) ;
+                    String message = "Error! Column size is not the same in " + filename + " at line " + (rows+1);
                     throw new Exception(message);
                  }
             }
